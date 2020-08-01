@@ -2,42 +2,42 @@
 #include <stdio.h>
 using namespace std;
 
-//fungsi kabisat
-int apaKabisat(int &tahun) {
-	if (tahun %4 == 0 && isdigit(tahun)) {
-		cout << "Tahun " << tahun << " adalah tahun kabisat.\n";
-	} else if (tahun %4 == 1 && isdigit(tahun)) {
-		cout << "Tahun " << tahun << " bukan tahun kabisat.\n";
+//function to check is leap year or not
+int isLeap(int &year) { //reference
+	if (year %4 == 0 && isdigit(year)) {
+		cout << "Year : " << year << " is a leap year.\n";
+	} else if (year %4 == 1 && isdigit(year)) {
+		cout << "Year : " << year << " is not a leap year.\n";
 	} else {
-		cout << "inputan salah! tahun tidak diketahui.\n";
+		cout << "wrong input! year is unknown.\n";
 	}
-	return tahun;
+	return year;
 }
 
-void namaProgram() {
+void programName() {
 	cout << "===============================\n";
-	cout << "==   Program Tahun Kabisat   ==\n";
+	cout << "====   Leap year Program   ====\n";
 	cout << "===============================\n";
 }
 
 int main() {
-	int tahun;
+	int year;
 
-	namaProgram();
-	cout << "Masukkan tahun        : "; cin >> tahun;
+	programName();
+	cout << "Input year		: "; cin >> year;
 
-	try {
-		if(!cin >> tahun) {
-			throw tahun;
+	try { //error handler if input isn't an integer/number
+		if(!cin >> year) {
+			throw year;
 		}
 	} catch (int error) {
-		cout << "error : masukkan tahun/angka saja!\n";
+		cout << "error : input year/number only!\n";
 	}
 
-	cout << "Tahun yang dimasukkan : " << tahun << endl;
+	cout << "Inputted year	: " << year << endl;
 	cout << "===============================\n";
 
-	apaKabisat(tahun); //panggil fungsi apaKabisat;
+	isLeap(year); //call isLeap function;
 
 	return 0;
 }
