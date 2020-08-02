@@ -29,7 +29,7 @@ int main() {
 														//*change recursivePow to forLoopPow << (if u wanna use it)
 		
 	cout << "==================================\n";
-	cout << "Terima kasih telah menghitung.";
+	cout << "Thank you for using.";
 
 	return 0;
 }
