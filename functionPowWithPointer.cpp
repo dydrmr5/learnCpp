@@ -26,7 +26,7 @@ int main() {
 		cout << "Enter the base value     : "; cin >> a;
 		cout << "Enter the exponent value : "; cin >> b;
 		cout << "The result is, " << a << " raised to the power " << b << " : " << recursivePow(&a, &b) << endl;
-														//*change recursivePow to forLoopPow << (if u wanna use it)
+		//*change recursivePow to forLoopPow << (if u wanna use it)
 		
 	cout << "==================================\n";
 	cout << "Thank you for using.";
