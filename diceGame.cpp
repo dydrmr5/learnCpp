@@ -9,7 +9,7 @@ void lineBar();
 void printMenu();
 
 int main () {
-	system("cls");
+	system("cls"); //system("clear"); on linux/unix os
 	int p1_dice, p2_dice;
 	char throw_dice;
 
