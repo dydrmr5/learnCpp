@@ -2,7 +2,7 @@
 using namespace std;
 
 // commented code below is pow function using for loop and pointer
-// press ctrl + / to uncomment
+// remove "//" to uncomment
 // int forLoopPow(int *aPtr, int *bPtr) {
 // 	int result = *aPtr;
 // 	for (int i = 1; i < *bPtr; i++) {
