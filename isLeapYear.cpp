@@ -4,7 +4,7 @@ using namespace std;
 
 //function to check is leap year or not
 int isLeap(int &year) { //reference
-	if (year %4 == 0 && isdigit(year)) {
+	if (year %4 == 0 && isdigit(year)) { //leap year = once in 4 year
 		cout << "Year : " << year << " is a leap year.\n";
 	} else if (year %4 == 1 && isdigit(year)) {
 		cout << "Year : " << year << " is not a leap year.\n";
