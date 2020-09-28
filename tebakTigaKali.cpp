@@ -6,26 +6,26 @@ void lineBar() {
 }
 
 int main() {
-	int a = 4, b = 6, hasil, tebak;
-	int salah = 0;
-	hasil = a + b;
+	int a = 4, b = 6, result, guess;
+	int wrong = 0;
+    result = a + b;
 
-	while (tebak != hasil) {
-		cout << "tebak hasil dari " << a << " + " << b << " : ";
-		cin >> tebak;
+	while (guess != result) {
+		cout << "guess the result from " << a << " + " << b << " : ";
+		cin >> guess;
 
-		if (salah == 3) {
-			cout << "jawaban salah!" << endl;
+		if (wrong == 3) {
+			cout << "wrong answer!" << endl;
 			lineBar();
-			cout << "anda sudah gagal karena 3 kali salah." << endl;
-			cout << "jawaban yang benar adalah : " << hasil << endl;
+			cout << "you've failed : wrong answer 3 times." << endl;
+			cout << "the correct answer is : " << result << endl;
 			break;
-		} else if (tebak == hasil) {
+		} else if (guess == result) {
 			lineBar();
-			cout << "jawaban anda benar, " << a << " + " << b << " = " << hasil << endl;
+			cout << "your answer is correct, " << a << " + " << b << " = " << hasil << endl;
 			break;
 		} else {
-			cout << "jawaban salah!" << endl;
+			cout << "wrong answer!" << endl;
 			salah++;
 		}
 	}
