@@ -22,11 +22,11 @@ int main() {
 			break;
 		} else if (guess == result) {
 			lineBar();
-			cout << "your answer is correct, " << a << " + " << b << " = " << hasil << endl;
+			cout << "your answer is correct, " << a << " + " << b << " = " << result << endl;
 			break;
 		} else {
 			cout << "wrong answer!" << endl;
-			salah++;
+			wrong++;
 		}
 	}
 
