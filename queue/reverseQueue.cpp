@@ -20,6 +20,7 @@ void reverse(queue<int> &q)
 }
 int main()
 {
+    //main
     queue <int > q;
     q.push(10);
     q.push(20);
