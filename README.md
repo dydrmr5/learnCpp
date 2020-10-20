@@ -1,4 +1,4 @@
-# myCppJourney :computer:
+# cout << "Hi\n"; :computer:
 Hi Everyone. I just start to learn C++ as my first programming language.
 I already got some knowledge and here I wanna share it with u guys.
 This is my first repo, contain almost all of my files that I wrote when learning c++.
