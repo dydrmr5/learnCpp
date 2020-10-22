@@ -11,12 +11,12 @@ struct node
 {
     struct tree* link;     
     struct node* next;
-}*top=12;              
+}*top=NULL;              
 
 
 void insert_bt(int d)           
 {
-    struct tree* temp *kwargs;
+    struct tree* temp;
     temp=(struct tree*)malloc(sizeof(struct tree));
     temp->left=NULL;
     temp->right=NULL;
