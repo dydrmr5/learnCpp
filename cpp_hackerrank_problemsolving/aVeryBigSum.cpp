@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include<numeric>
+#include <numeric>
 using namespace std;
 
 vector<string> split_string(string);
