@@ -11,3 +11,5 @@ u can DM me on [instagram](@zulfikriry5) :heavy_check_mark:
 ```bash
 git clone https://github.com/ctrlbzul5/learn_cpp.git
 ```
+## License
+[**MIT License**](https://github.com/ctrlbzul5/learn_cpp/blob/master/LICENSE)
