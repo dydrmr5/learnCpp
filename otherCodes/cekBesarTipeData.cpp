@@ -57,11 +57,6 @@ int main() {
     cout << "kode yang anda masukkan salah!";
     cout << "\n \n";
   } 
-  // cout << "besar dari tipe data int adalah : ";
-  // cout << sizeof(a) << " Byte" << "\n";
-  // cout << "nilai maksimumnya : ";
-  // cout << numeric_limits<int>::max() << "\n";
-  // cout << "nilai minimumnya : ";
-  // cout << numeric_limits<int>::min() << "\n";
+
   return 0;
 }
